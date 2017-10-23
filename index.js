@@ -265,12 +265,14 @@ let styles = StyleSheet.create({
 		flex: 1,
 		justifyContent: 'center',
 		alignItems: 'center',
+		position: 'relative',
 		//this is very important
 		backgroundColor: null
 	},
 	up: {
 		height: 90,
-		overflow: 'hidden'
+		overflow: 'hidden',
+		backgroundColor: null,
 	},
 	upView: {
 		justifyContent: 'flex-start',
@@ -290,6 +292,7 @@ let styles = StyleSheet.create({
 		height: 40,
 		width: width,
 		overflow: 'hidden',
+		backgroundColor: null,
 		borderColor: '#aaa',
 		borderTopWidth: 1/ratio,
 		borderBottomWidth: 1/ratio
@@ -310,7 +313,8 @@ let styles = StyleSheet.create({
 	},
 	down: {
 		height: 90,
-		overflow: 'hidden'
+		overflow: 'hidden',
+		backgroundColor: null,
 	},
 	downView: {
 		overflow: 'hidden',
